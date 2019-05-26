@@ -42,6 +42,14 @@ section {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	padding: 100px 80px;
+}
+
+.hero,
+.destinations,
+.packages,
+.testimonials,
+.contact {
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
@@ -49,10 +57,9 @@ section {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	padding: 100px 80px;
 }
 
-section:not(.hero):nth-child(even) {
+section:not(.hero, .pricing-table):nth-child(even) {
 	background-color: #f5f5f5;
 }
 
@@ -94,11 +101,11 @@ section p {
 }
 
 @media screen and (max-width: 800px) {
-	
+
 	a {
 		opacity: inherit;
 	}
-	
+
 	section {
 		padding: 50px 20px;
 	}
@@ -120,27 +127,15 @@ header {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	padding: 35px 100px 0;
-	-webkit-animation: 1s fadein 0.5s forwards;
-	animation: 1s fadein 0.5s forwards;
-	opacity: 0;
+	padding: 25px 100px 0;
 	z-index: 2;
-}
+	background-color: #66a4d0;
 
-@-webkit-keyframes fadein {
-	100% {
-		opacity: 1;
-	}
-}
-
-@keyframes fadein {
-	100% {
-		opacity: 1;
-	}
 }
 
 header h2 {
 	font-family: 'Quicksand', 'sans-serif';
+	margin-bottom: 25px;
 }
 
 header nav {
@@ -148,20 +143,25 @@ header nav {
 	display: -ms-flexbox;
 	display: flex;
 	margin-right: -15px;
+	margin-bottom: 25px;
+
 }
 
 header nav li {
 	margin: 0 15px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 	header {
-		padding: 50px 20px;
+		padding: 10px 10px;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: column;
 		flex-direction: column;
+
 	}
+
+	header nav {}
 
 	header h2 {
 		margin-bottom: 15px;
@@ -249,7 +249,7 @@ header nav li {
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 	.hero {
 		min-height: 600px;
 	}
@@ -339,7 +339,7 @@ header nav li {
 	margin: 40px 0 25px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 	.testimonials .quote {
 		font-size: 18px;
 		margin: 15px 0;
@@ -430,7 +430,7 @@ footer ul li {
 		-ms-flex-direction: column;
 		flex-direction: column;
 	}
-	
+
 	footer div {
 		margin: 20px 0 20px 7px;
 	}
@@ -440,3 +440,47 @@ footer ul li {
 		margin: 0 10px;
 	}
 }
+
+/*Pricing Styles*/
+.pricing-table {
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	text-align: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	padding-top: 20vh;
+	font-size: 1.4em;
+	width: 100%;
+}
+
+.pricing-table ul li:nth-child(even):not(.price-title) {
+	background-color: #f5f5f5;
+
+}
+
+.price-box {
+	border: solid 1px #000;
+	margin-top: 50px;
+}
+
+
+
+.price-box li {
+	padding: 20px 80px;
+}
+
+.price-title {
+	background-color: #56d4eb;
+	color: #fff;
+}
+
+.button {
+	cursor: pointer;
+	padding: 5px 30px;
+	border-radius: 5px;
+	background-color: #39a931;
+	color: #fff;
+}
+
