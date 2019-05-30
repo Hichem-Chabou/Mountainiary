@@ -461,8 +461,10 @@ footer ul li {
 }
 
 .price-box {
-	border: solid 1px #000;
+	-webkit-box-shadow: 2px 2px 5px 0 rgba(64, 69, 66, 0.9);
+	box-shadow: 2px 2px 5px 0 rgba(64, 69, 66, 0.9);
 	margin-top: 50px;
+	width: 300px;
 }
 
 
