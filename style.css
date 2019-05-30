@@ -464,7 +464,7 @@ footer ul li {
 	-webkit-box-shadow: 2px 2px 5px 0 rgba(64, 69, 66, 0.9);
 	box-shadow: 2px 2px 5px 0 rgba(64, 69, 66, 0.9);
 	margin-top: 50px;
-	width: 300px;
+	width: 320px;
 	-webkit-transition: 200ms;
 	transition: 200ms;
 }
@@ -476,6 +476,7 @@ footer ul li {
 
 .price-box li {
 	padding: 25px 70px;
+	border-bottom: 1px dotted rgba( 166, 170, 165, 0.3 );
 }
 
 .price-title {
@@ -508,6 +509,12 @@ footer ul li {
 
 
 @media screen and (max-width: 480px) {
+	.price-box {
+	width: 300px;
+	font-size: 0.9em; 
+
+}
+	
 	.price-box:hover {
 		-webkit-transform: none;
 		transform: none;
