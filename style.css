@@ -455,7 +455,7 @@ footer ul li {
 	width: 100%;
 }
 
-.pricing-table ul li:nth-child(even):not(.price-title) {
+.pricing-table ul li:nth-child(2) {
 	background-color: #f5f5f5;
 
 }
@@ -465,24 +465,51 @@ footer ul li {
 	box-shadow: 2px 2px 5px 0 rgba(64, 69, 66, 0.9);
 	margin-top: 50px;
 	width: 300px;
+	-webkit-transition: 200ms;
+	transition: 200ms;
 }
 
-
+.price-box:hover {
+	-webkit-transform: scale(1.07);
+	transform: scale(1.07);
+}
 
 .price-box li {
-	padding: 20px 80px;
+	padding: 25px 70px;
 }
 
 .price-title {
-	background-color: #56d4eb;
+	background-color: #5786f4;
 	color: #fff;
+}
+
+.price {
+	font-size: 1.7em;
+}
+
+.person {
+	color: #7b7474;
+	font-size: 0.7em;
+}
+
+.price-btn {
+	background-color: #f5f5f5;
 }
 
 .button {
 	cursor: pointer;
 	padding: 5px 30px;
 	border-radius: 5px;
-	background-color: #39a931;
+	background-color: #5786f4; /*39a931*/
 	color: #fff;
+	letter-spacing: 1px;
+	opacity: 1;
 }
 
+
+@media screen and (max-width: 480px) {
+	.price-box:hover {
+		-webkit-transform: none;
+		transform: none;
+}
+}
