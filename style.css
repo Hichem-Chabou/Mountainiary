@@ -453,6 +453,7 @@ footer ul li {
 	padding-top: 20vh;
 	font-size: 1.4em;
 	width: 100%;
+	background: linear-gradient(45deg, #61daef, #8a9ef8);
 }
 
 .pricing-table ul li:nth-child(2) {
@@ -463,10 +464,11 @@ footer ul li {
 .price-box {
 	-webkit-box-shadow: 2px 2px 5px 0 rgba(64, 69, 66, 0.9);
 	box-shadow: 2px 2px 5px 0 rgba(64, 69, 66, 0.9);
-	margin-top: 50px;
+	margin: 26px 5px 0 0;
 	width: 320px;
 	-webkit-transition: 200ms;
 	transition: 200ms;
+	background-color: #fff;
 }
 
 .price-box:hover {
