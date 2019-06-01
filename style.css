@@ -403,6 +403,12 @@ footer {
 	padding: 20px 0;
 }
 
+
+.home,
+footer div a {
+	font-size: 1.2em;
+}
+
 footer div {
 	margin-left: 20px;
 }
@@ -415,7 +421,6 @@ footer ul {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-
 }
 
 footer ul li {
@@ -478,7 +483,7 @@ footer ul li {
 
 .price-box li {
 	padding: 25px 70px;
-	border-bottom: 1px dotted rgba( 166, 170, 165, 0.3 );
+	border-bottom: 1px dotted rgba(166, 170, 165, 0.3);
 }
 
 .price-title {
@@ -503,7 +508,7 @@ footer ul li {
 	cursor: pointer;
 	padding: 5px 30px;
 	border-radius: 5px;
-	background-color: #5786f4; /*39a931*/
+	background-color: #5786f4;
 	color: #fff;
 	letter-spacing: 1px;
 	opacity: 1;
@@ -512,13 +517,13 @@ footer ul li {
 
 @media screen and (max-width: 480px) {
 	.price-box {
-	width: 300px;
-	font-size: 0.9em; 
+		width: 300px;
+		font-size: 0.9em;
 
-}
-	
+	}
+
 	.price-box:hover {
 		-webkit-transform: none;
 		transform: none;
-}
+	}
 }
