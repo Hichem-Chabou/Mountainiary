@@ -59,7 +59,7 @@ section {
 	align-items: center;
 }
 
-section:not(.hero, .pricing-table):nth-child(even) {
+section:not(.hero):nth-child(even) {
 	background-color: #f5f5f5;
 }
 
