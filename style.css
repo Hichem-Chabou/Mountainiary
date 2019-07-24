@@ -144,6 +144,7 @@ header nav {
 	display: flex;
 	margin-right: -15px;
 	margin-bottom: 25px;
+	height: 2.5vh;
 
 }
 
@@ -458,6 +459,9 @@ footer ul li {
 	padding-top: 20vh;
 	font-size: 1.4em;
 	width: 100%;
+}
+
+.bgc {
 	background: linear-gradient(45deg, #61daef, #8a9ef8);
 }
 
@@ -526,4 +530,34 @@ footer ul li {
 		-webkit-transform: none;
 		transform: none;
 	}
+}
+
+/*About Section*/
+
+.about {
+	height: 92.5vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: column wrap;
+	flex-flow: column wrap;
+	color: #fff;
+	
+}
+
+.about h2 {
+	text-align: center;
+	margin-top: 10vh;
+	font-size: 2.5em;
+}
+
+.about p {
+	margin: 20vh auto 0 auto;
+	font-size: 1.2em;
+}
+
+.about-footer {
+	height: 7.5vh;
 }
