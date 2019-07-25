@@ -411,7 +411,7 @@ footer div a {
 }
 
 footer div {
-	margin-left: 20px;
+	margin-left: 10px;
 }
 
 footer div a {
@@ -561,3 +561,26 @@ footer ul li {
 .about-footer {
 	height: 7.5vh;
 }
+
+@media screen and (max-width: 372px) {
+	.about p {
+		margin-top: 15vh;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.about h2 {
+		margin-top: 15vh;
+	}
+	
+	.about p {
+		font-size: 1em;
+	}
+	.about-footer {
+		height: 17vh;
+		padding-top: inherit;
+
+	}
+}
+
