@@ -584,3 +584,14 @@ footer ul li {
 	}
 }
 
+@media screen and (max-width: 800px) {
+	.about h2 {
+		font-size: 2em;
+	}
+	
+	.about p {
+		font-size: 1.1em;
+	}
+
+}
+
