@@ -456,7 +456,7 @@ footer ul li {
 	-webkit-box-direction: normal;
 	-ms-flex-flow: row wrap;
 	flex-flow: row wrap;
-	padding-top: 20vh;
+	padding: 20vh 0 11.35vh 0;
 	font-size: 1.4em;
 	width: 100%;
 }
@@ -518,6 +518,10 @@ footer ul li {
 	opacity: 1;
 }
 
+.pricing-footer {
+	height: 65px;
+}
+
 
 @media screen and (max-width: 480px) {
 	.price-box {
@@ -529,6 +533,10 @@ footer ul li {
 	.price-box:hover {
 		-webkit-transform: none;
 		transform: none;
+	}
+	
+	.pricing-footer a {
+		padding-top: 20px;
 	}
 }
 
