@@ -12,5 +12,8 @@ Here's a live demo: https://mountainiary.surge.sh/
 ### About  
 ![About](https://github.com/Hichem-Chabou/Mountainiary/blob/master/img/Mountainiary-about.png)  
 
+## To-Do  
+* Improve pricing table's design  
+
 ## License :scroll:  
 [MIT](https://github.com/Hichem-Chabou/Mountainiary/blob/master/LICENSE)
