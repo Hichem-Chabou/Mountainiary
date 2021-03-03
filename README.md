@@ -12,7 +12,7 @@ Here's a live demo: https://mountainiary.surge.sh/
 ### About  
 ![About](https://github.com/Hichem-Chabou/Mountainiary/blob/master/img/Mountainiary-about.png)  
 
-## To-Do  
+## To-Do :memo:  
 * Improve pricing table's design  
 
 ## License :scroll:  
