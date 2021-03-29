@@ -14,6 +14,7 @@ Here's a live demo: https://mountainiary.surge.sh/
 
 ## To-Do :memo:  
 * Improve pricing table's design  
+* Refactor code  
 
 ## License :scroll:  
 [MIT](https://github.com/Hichem-Chabou/Mountainiary/blob/master/LICENSE)
